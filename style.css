@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cute;
+    color: rgb(87, 43, 50);
+}
+
+@font-face {
+    font-family: cute;
+    src: url(font/Hug\ Me\ Tight\ -\ TTF.ttf);
+}
+
+.banner{
+    background-image: url(images/header3.jpg);
+    height: 100px;
+    margin: 5px;
+    position: relative;
+}
+
+.lower{
+    position: relative;
+}
+
+.main{
+    position: absolute;
+    left: 80px;
+    top: 12px;
+    height: 300px;
+    width: 88%;
+}
+
+.main h1{
+    position: absolute;
+}
+
+.main p{
+    position: absolute;
+    top: 50px;
+}
+
+.linkl a, .linkr a{
+    border: 1px solid black;
+    text-decoration: none;
+    border-color: rgb(155, 139, 142);
+    opacity: .55;
+    transition: .4s;
+    background-color: rgb(255, 241, 244);
+}
+
+.linkl a:hover, .linkr a:hover{opacity: 1; transition: .4s;}
+
+
+.linkl{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 50px;
+    display: block;
+}
+
+.linkr{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 50px;
+    display: block;
+}
+
+.images{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+.images img{
+    position: relative;
+    display: inline;
+    width: 300px;
+    height: 175px;
+}
